@@ -35,7 +35,7 @@ article {
   background-image: linear-gradient(to top,rgba(0,0,0,0.5),rgba(255,255,255,1));
   position: absolute;
   height: 200px;
-  bottom: 8mm; /*bottom gradient*/
+  bottom: 8mm; /*bottom gradient doesn't show*/
 }
 
 address {
