@@ -65,7 +65,7 @@ body {
   @media screen and (max-width: 800px) {
     nav ul a {
         display: flex;
-        border: #333;
+        border: #4A6D51;
         border-style: dashed;
         border-radius: 10px;
         font-size: 18px;
