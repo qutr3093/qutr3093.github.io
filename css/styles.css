@@ -34,6 +34,8 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     max-width: 980px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 
   }
 
@@ -96,10 +98,3 @@ body {
   font-size: 28px;
 }
 
-.experience {
-  margin: 0 auto;
-  padding: 0 20px;
-  max-width: 980px;
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-}
