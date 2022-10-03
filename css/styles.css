@@ -71,3 +71,30 @@ body {
         font-size: 18px;
     }
   }
+
+  #aboutQ {
+    border: #4A6D51 ;
+    border-width: 10px;
+    float: right;
+    max-width: 17em;
+  }
+
+  #email_button {
+    box-sizing: border-box;
+
+  position: absolute;
+
+
+  background: #FFFFFF;
+  border: 4px solid #4A6D51;
+  border-radius: 45px;
+
+  padding: 50px 120px;
+  padding-right: 50px;
+  }
+
+#email_link {
+  text-decoration: none;
+  color: #4A6D51;
+  font-size: 28px;
+}
