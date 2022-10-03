@@ -34,8 +34,7 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     max-width: 980px;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+
   }
 
   h1 {
@@ -82,19 +81,25 @@ body {
   #email_button {
     box-sizing: border-box;
 
-  position: absolute;
+    position: absolute;
+    background: #FFFFFF;
+    border: 4px solid #4A6D51;
+    border-radius: 45px;
 
-
-  background: #FFFFFF;
-  border: 4px solid #4A6D51;
-  border-radius: 45px;
-
-  padding: 50px 120px;
-  padding-right: 50px;
+    padding: 50px 120px;
+    padding-right: 50px;
   }
 
 #email_link {
   text-decoration: none;
   color: #4A6D51;
   font-size: 28px;
+}
+
+.experience {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 980px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
 }
