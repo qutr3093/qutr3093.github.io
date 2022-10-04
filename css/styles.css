@@ -44,12 +44,10 @@ body {
   }
   h1 {
     font-size: 96px;
-    color: #F4F7F5
   }
 
   h6 {
     font-size: 32px;
-    color: #F4F7F5
   }
   
   @media screen and (max-width: 800px) {
