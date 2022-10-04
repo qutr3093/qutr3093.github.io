@@ -70,7 +70,6 @@
 
   }
 
-
   h1 {
     font-size: 96px;
   }
@@ -122,14 +121,16 @@
     padding-right: 50px;
   }
 
-#email_link {
-  text-decoration: none;
-  color: #4A6D51;
-  font-size: 28px;
-}
+  #email_link {
+    text-decoration: none;
+    color: #4A6D51;
+    font-size: 28px;
+  }
 
-ul {
-  color: #F4F7F5;
-}
+  ul {
+    color: #F4F7F5;
+  }
+
+  
 
 /* styling for hover and clicked on links */
