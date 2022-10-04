@@ -39,6 +39,9 @@ body {
 
   }
 
+  h1, h2, h3, h4, h5 h6 {
+    color: #F4F7F5;
+  }
   h1 {
     font-size: 96px;
     color: #F4F7F5
@@ -98,3 +101,8 @@ body {
   font-size: 28px;
 }
 
+ul {
+  color: #F4F7F5;
+}
+
+/* styling for hover and clicked on links */
