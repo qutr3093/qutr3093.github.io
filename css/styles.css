@@ -29,6 +29,21 @@
     padding: .5em 1em;
   }
 
+  #hi  {
+    color: #F4F7F5;
+  }
+
+  #intro{
+    font-size: 30px;
+    color: #F4F7F5;
+    font-weight: normal;
+  }
+
+  #ux {
+    font-size: 32px;
+    color: #F4F7F5;
+  }
+
   body {
     background-color: #F4F7F5;
     color: #352F33;
@@ -76,9 +91,11 @@
 
   h6 {
     font-size: 32px;
+    font-weight: normal;
+    color: #4A6D51;
   }
   
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 400px) {
     .grid {
       display: flex;
     }
@@ -92,7 +109,7 @@
     }
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 400px) {
     nav ul a {
         display: flex;
         border: #4A6D51;
@@ -103,10 +120,11 @@
   }
 
   #aboutQ {
-    border: #4A6D51 ;
-    border-width: 10px;
     float: right;
     max-width: 17em;
+    border: 3px solid #4A6D51;
+    border-radius: 5px;
+    
   }
 
   #email_button {
@@ -128,9 +146,10 @@
   }
 
   ul {
-    color: #F4F7F5;
+    color: #4A6D51;
+    padding: 10px;
+
   }
 
-  
 
 /* styling for hover and clicked on links */
