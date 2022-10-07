@@ -1,153 +1,183 @@
-  .home {
-      background-color: #4A6D51;
-      color: #352F33;
-      margin: 0;
-      font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
-      font-family: 'SF Compact Rounded';
-  }
+@media screen and (max-width: 400px) {
+}
+/*---------------------------------------------------------------------*/
 
-  .home nav {
-    background-color: #F4F7F5;
-    padding: .5em;
-    position: sticky;
-    top:0
-  }
-
-  .home nav ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      display: flex;
-      justify-content: flex-end;
-      font-size: 32px;
-  }
-
-  .home nav a {
-
-    color: #4A6D51;
-    text-decoration: none;
-    padding: .5em 1em;
-  }
-
-  #hi  {
-    color: #F4F7F5;
-  }
-
-  #intro{
-    font-size: 30px;
-    color: #F4F7F5;
-    font-weight: normal;
-  }
-
-  #ux {
-    font-size: 32px;
-    color: #F4F7F5;
-  }
-
-  body {
+/*---------------------------------------------------------------------*/
+/* general */
+body {
     background-color: #F4F7F5;
     color: #352F33;
     margin: 0;
     font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
     font-family: 'SF Compact Rounded';
-  }
+}
 
+nav {
+  padding: 3em;
+  position: sticky;
+  top:0
+}
 
-  nav {
-    background-color: #4A6D51;
-    padding: .5em;
-    position: sticky;
-    top:0
-
-  }
-  
-  nav ul {
+nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    font-size: 32px;
+    font-size: 48px;
+}
+
+nav a {
+  color: #333333;
+  text-decoration: none;
+  padding: .5em 1em;
+}
+
+nav a:hover {
+  color: #4A6D51;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+hr {
+border: 2px solid;
+width: 1500px;
+float: right;
+top: 20px;
+}
+
+/*---------------------------------------------------------------------*/
+/* about page*/
+.about {
+  background-color: #C1D5BC;
+  background-image: url(/img/green_aura.jpeg);
+  background-repeat:no-repeat;
+  background-position: 200px 500px;
+  background-position-x: center;
+  background-position-y: 180px;
+  background-size: 70%;
+}
+#hey {
+  font-size: 64px;
+  position: relative;
+  padding-inline-start: 1100px;
+}
+#major {
+  font-size: 64px;
+  position: relative;
+  padding-inline-start: 550px;
+  font-weight: lighter;
+  line-height: 150%;
+}
+
+#born {
+  font-size: 64px;
+  position: relative;
+  padding-inline-start: 100px;
+  font-weight: lighter;
+  padding-right: 500px;
+  top: 950px;
+  line-height: 150%;
+}
+
+/*---------------------------------------------------------------------*/
+/*playground page*/
+.contain {
+    background-color: #C1D5BC;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    display: flex;
   }
-  
-  nav a {
-    color: #F4F7F5;
-    text-decoration: none;
-    padding: .5em 1em;
-  }
 
-  .grid {
-    margin: 0 auto;
-    padding: 0 20px;
-    max-width: 980px;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+#welcome_playground_box {
+  padding: 20px 70px;
+}
 
-  }
+#welcome_playground {
+  color: #352F33;
+  font-size: 64px;
+  line-height: 230%;
+}
 
-  h1 {
-    font-size: 96px;
-  }
+#resume {
+  border: #352F33 4px solid;
+  border-radius: 30px;
+  box-shadow: -30px 30px 5px #4A6D51;
+}
 
-  h6 {
-    font-size: 32px;
-    font-weight: normal;
-    color: #4A6D51;
-  }
-  
-  @media screen and (max-width: 400px) {
-    .grid {
-      display: flex;
-    }
+#my_experience {
+  font-size: 40px;
+  flex: 1;
+  padding: 20px  200px 20px 20px;
+  margin: 100px;
+  line-height: 200%;
+}
 
-    h1 {
-        font-size: 46px;
-    }
+#my_experience_list {
+  list-style-type: circle;
 
-    h6{
-        font-size: 20px;
-    }
-  }
+}
 
-  @media screen and (max-width: 400px) {
-    nav ul a {
-        display: flex;
-        border: #4A6D51;
-        border-style: dashed;
-        border-radius: 10px;
-        font-size: 18px;
-    }
-  }
+/*---------------------------------------------------------------------*/
+/*index page*/
+.box {
+  padding: 200px 0px 0px 200px;
+  height: 66vh;
+  width: 100vh;
+  position: bottom;
+  float: right;
+  background: #C1D5BC;
 
-  #aboutQ {
+}
+.smaller_box {
+    padding: 400px 0px 0px 200px;
+    height: 28vh;
+    width: 28vh;
+    position: bottom;
     float: right;
-    max-width: 17em;
-    border: 3px solid #4A6D51;
-    border-radius: 5px;
-    
-  }
+    background: #6A8662;
+}
 
-  #email_button {
-    box-sizing: border-box;
+.welcome_home h1{
+  position: absolute;
+  top:300px;
+  left:520px;
+  font-size: 96px;
+}
 
-    position: absolute;
-    background: #FFFFFF;
-    border: 4px solid #4A6D51;
-    border-radius: 45px;
+/*---------------------------------------------------------------------*/
+/*contact page*/
+#email_box {
+  text-decoration: none;
+  /* color: #6A8662; */
+  font-size: 42px;
+  background-color: #F4F7F5;
+  padding: 40px;
+  border-radius: 45px;
+  text-align: center;
+  border:#4A6D51 3px solid;
+  width: 10%;
+}
 
-    padding: 50px 120px;
-    padding-right: 50px;
-  }
+.container {
+  background-color: #C1D5BC;
+  padding: 120px;
+  margin: 180px 300px 0px 0px;
 
-  #email_link {
-    text-decoration: none;
-    color: #4A6D51;
-    font-size: 28px;
-  }
+}
 
-  ul {
-    color: #4A6D51;
-    padding: 10px;
+.container h1  {
+  font-size: 80px;
+}
 
-  }
-/* styling for hover and clicked on links */
+.container h3 {
+  font-size: 40px;
+  font-weight: normal;
+}
+
+#email_link {
+  text-decoration: none;
+  color: #4A6D51;
+}
+
+/*---------------------------------------------------------------------*/
