@@ -20,7 +20,7 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 nav a {
@@ -115,28 +115,24 @@ list-style-type: circle;
 /*---------------------------------------------------------------------*/
 /*index page*/
 .box {
-padding: 200px 0px 0px 200px;
-height: 64vh;
-width: 90vh;
-position: bottom;
-float: right;
+padding: 20px;
+height: 30vh;
+width: 30vh;
 background: #C1D5BC;
 
 }
 .smaller_box {
-  padding: 360px 0px 0px 200px;
+  padding: 20px;
   height: 20vh;
   width: 20vh;
-  position: bottom;
-  float: right;
   background: #6A8662;
 }
 
 .welcome_home h1{
-position: absolute;
-top:250px;
-left:350px;
-font-size: 96px;
+position: relative;
+top:50px;
+left:100px;
+font-size: 36px;
 }
 
 /*---------------------------------------------------------------------*/
