@@ -181,8 +181,7 @@ body {
     background-color: #F4F7F5;
     color: #352F33;
     margin: 0;
-    /* font: 1.2em / 1.2 Arial, Helvetica, sans-serif; */
-    font-family: 'SF Compact Rounded';
+    font-family: sans-serif;
 }
 
 nav {
@@ -263,7 +262,7 @@ top: 20px;
   }
 
 #welcome_playground_box {
-  padding: 10px 60px;
+  padding: 10px 40px;
 }
 
 #welcome_playground {
@@ -281,7 +280,7 @@ top: 20px;
 #my_experience {
   font-size: 36px;
   flex: 1;
-  padding: 15px 180px 15px 15px;
+  padding: 15px 200px 15px 10px;
   margin: 100px;
   line-height: 150%;
 }
