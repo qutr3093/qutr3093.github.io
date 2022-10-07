@@ -1,4 +1,178 @@
 @media screen and (max-width: 400px) {
+  /* general */
+body {
+  background-color: #F4F7F5;
+  color: #352F33;
+  margin: 0;
+  /* font: 1.2em / 1.2 Arial, Helvetica, sans-serif; */
+  font-family: 'SF Compact Rounded';
+}
+
+nav {
+padding: 2em;
+position: sticky;
+top:0
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+}
+
+nav a {
+color: #333333;
+text-decoration: none;
+padding: .5em 1em;
+}
+
+nav a:hover {
+color: #4A6D51;
+font-weight: bold;
+font-style: oblique;
+}
+
+hr {
+border: 1px solid;
+width: 400px;
+top: 20px;
+}
+
+/*---------------------------------------------------------------------*/
+/* about page*/
+.about {
+background-color: #C1D5BC;
+background-image: url(/img/green_aura.jpeg);
+background-repeat:no-repeat;
+background-position: 200px 500px;
+background-position-x: center;
+background-position-y: 180px;
+background-size: 70%;
+}
+#hey {
+font-size: 64px;
+position: relative;
+padding-inline-start: 1100px;
+}
+#major {
+font-size: 64px;
+position: relative;
+padding-inline-start: 550px;
+font-weight: lighter;
+line-height: 150%;
+}
+
+#born {
+font-size: 64px;
+position: relative;
+padding-inline-start: 100px;
+font-weight: lighter;
+padding-right: 500px;
+top: 950px;
+line-height: 150%;
+}
+
+/*---------------------------------------------------------------------*/
+/*playground page*/
+.contain {
+  background-color: #C1D5BC;
+  /* padding: 10px; */
+  /* margin: 10px; */
+  display: flex;
+}
+
+#welcome_playground_box {
+padding: 10px 60px;
+}
+
+#welcome_playground {
+color: #352F33;
+font-size: 56px;
+line-height: 150%;
+}
+
+#resume {
+border: #352F33 4px solid;
+border-radius: 30px;
+box-shadow: -30px 30px 5px #4A6D51;
+}
+
+#my_experience {
+font-size: 36px;
+flex: 1;
+padding: 15px 180px 15px 15px;
+margin: 100px;
+line-height: 150%;
+}
+
+#my_experience_list {
+list-style-type: circle;
+}
+
+/*---------------------------------------------------------------------*/
+/*index page*/
+.box {
+padding: 200px 0px 0px 200px;
+height: 64vh;
+width: 90vh;
+position: bottom;
+float: right;
+background: #C1D5BC;
+
+}
+.smaller_box {
+  padding: 360px 0px 0px 200px;
+  height: 20vh;
+  width: 20vh;
+  position: bottom;
+  float: right;
+  background: #6A8662;
+}
+
+.welcome_home h1{
+position: absolute;
+top:250px;
+left:350px;
+font-size: 96px;
+}
+
+/*---------------------------------------------------------------------*/
+/*contact page*/
+#email_box {
+text-decoration: none;
+/* color: #6A8662; */
+font-size: 42px;
+background-color: #F4F7F5;
+padding: 40px;
+border-radius: 45px;
+text-align: center;
+border:#4A6D51 3px solid;
+width: 20%;
+}
+
+.container {
+background-color: #C1D5BC;
+padding: 80px;
+margin: 85px 200px 0px 0px;
+
+}
+
+.container h1  {
+font-size: 64px;
+}
+
+.container h3 {
+font-size: 36px;
+font-weight: normal;
+}
+
+#email_link {
+text-decoration: none;
+color: #4A6D51;
+}
 }
 /*---------------------------------------------------------------------*/
 
@@ -178,5 +352,3 @@ top: 20px;
   text-decoration: none;
   color: #4A6D51;
 }
-
-
