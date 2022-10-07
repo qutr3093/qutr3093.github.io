@@ -90,13 +90,13 @@ top: 20px;
   }
 
 #welcome_playground_box {
-  padding: 20px 70px;
+  padding: 10px 60px;
 }
 
 #welcome_playground {
   color: #352F33;
-  font-size: 64px;
-  line-height: 230%;
+  font-size: 56px;
+  line-height: 150%;
 }
 
 #resume {
@@ -106,16 +106,15 @@ top: 20px;
 }
 
 #my_experience {
-  font-size: 40px;
+  font-size: 36px;
   flex: 1;
-  padding: 20px  200px 20px 20px;
+  padding: 15px 180px 15px 15px;
   margin: 100px;
-  line-height: 200%;
+  line-height: 150%;
 }
 
 #my_experience_list {
   list-style-type: circle;
-
 }
 
 /*---------------------------------------------------------------------*/
