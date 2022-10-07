@@ -155,22 +155,22 @@ top: 20px;
   border-radius: 45px;
   text-align: center;
   border:#4A6D51 3px solid;
-  width: 10%;
+  width: 20%;
 }
 
 .container {
   background-color: #C1D5BC;
-  padding: 120px;
-  margin: 180px 300px 0px 0px;
+  padding: 80px;
+  margin: 85px 200px 0px 0px;
 
 }
 
 .container h1  {
-  font-size: 80px;
+  font-size: 64px;
 }
 
 .container h3 {
-  font-size: 40px;
+  font-size: 36px;
   font-weight: normal;
 }
 
