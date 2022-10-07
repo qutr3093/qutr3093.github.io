@@ -127,23 +127,37 @@
   /*index page*/
   .box {
     padding: 20px;
-    height: 30vh;
+    padding-left: 160px;
+    height: 58vh;;
     width: 30vh;
     background: #C1D5BC;
+    width: 300px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -15px;
 
   }
   .smaller_box {
     padding: 20px;
-    height: 20vh;
-    width: 20vh;
+    height: 40vh;
+    width: 17vh;
     background: #6A8662;
+    width: 300px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -100px;
   }
 
   .welcome_home h1{
-    position: relative;
-    top:50px;
+
     left:100px;
     font-size: 36px;
+    text-align: center;
+    padding: 25px;
   }
 
   /*---------------------------------------------------------------------*/
