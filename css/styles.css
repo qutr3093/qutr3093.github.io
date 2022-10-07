@@ -150,30 +150,39 @@
   /*contact page*/
   #email_box {
     text-decoration: none;
-    /* color: #6A8662; */
-    font-size: 42px;
+    font-size: 16px;
     background-color: #F4F7F5;
-    padding: 40px;
-    border-radius: 45px;
+    padding: 20px;
+    border-radius: 30px;
     text-align: center;
     border:#4A6D51 3px solid;
-    width: 20%;
+    width: 50%;
+    margin-top: 45px ;
+    margin-left: 20px;
+
   }
 
   .container {
     background-color: #C1D5BC;
-    padding: 80px;
-    margin: 85px 200px 0px 0px;
-
+    padding: 50px;
+    padding-top: 10px;
+    margin: 50px 0px 80px 50px;
+    width: 200px;
+    height: 450px;
   }
 
   .container h1  {
-    font-size: 64px;
+    font-size: 36px;
+    text-align: center;
   }
 
   .container h3 {
-    font-size: 36px;
+    font-size: 20px;
     font-weight: normal;
+    color: #4A6D51;
+    line-height: 300%;
+    text-align: center;
+    font-size: medium;
   }
 
   #email_link {
