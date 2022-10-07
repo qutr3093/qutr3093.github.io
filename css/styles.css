@@ -8,12 +8,12 @@ body {
     background-color: #F4F7F5;
     color: #352F33;
     margin: 0;
-    font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+    /* font: 1.2em / 1.2 Arial, Helvetica, sans-serif; */
     font-family: 'SF Compact Rounded';
 }
 
 nav {
-  padding: 3em;
+  padding: 2em;
   position: sticky;
   top:0
 }
@@ -24,7 +24,7 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    font-size: 48px;
+    font-size: 36px;
 }
 
 nav a {
@@ -41,7 +41,7 @@ nav a:hover {
 
 hr {
 border: 2px solid;
-width: 1500px;
+width: 1000px;
 float: right;
 top: 20px;
 }
@@ -122,17 +122,17 @@ top: 20px;
 /*index page*/
 .box {
   padding: 200px 0px 0px 200px;
-  height: 66vh;
-  width: 100vh;
+  height: 64vh;
+  width: 90vh;
   position: bottom;
   float: right;
   background: #C1D5BC;
 
 }
 .smaller_box {
-    padding: 400px 0px 0px 200px;
-    height: 28vh;
-    width: 28vh;
+    padding: 360px 0px 0px 200px;
+    height: 20vh;
+    width: 20vh;
     position: bottom;
     float: right;
     background: #6A8662;
@@ -140,8 +140,8 @@ top: 20px;
 
 .welcome_home h1{
   position: absolute;
-  top:300px;
-  left:520px;
+  top:250px;
+  left:350px;
   font-size: 96px;
 }
 
