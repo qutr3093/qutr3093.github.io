@@ -78,12 +78,7 @@
 
   /*---------------------------------------------------------------------*/
   /*playground page*/
-  .contain {
-      background-color: #C1D5BC;
-      /* padding: 10px; */
-      /* margin: 10px; */
-      display: flex;
-  }
+
 
   #welcome_playground_box {
     padding: 10px 60px;
@@ -91,26 +86,41 @@
 
   #welcome_playground {
     color: #352F33;
-    font-size: 56px;
+    font-size: 34px;
     line-height: 150%;
+    text-align: center;
+  }
+
+  br {
+    display: none;
   }
 
   #resume {
     border: #352F33 4px solid;
-    border-radius: 30px;
-    box-shadow: -30px 30px 5px #4A6D51;
+    border-radius: 15px;
+    /* box-shadow: -30px 30px 5px #4A6D51; */
+    width: 150px;
+    height: 200px;
+    margin-left: 120px;
   }
 
   #my_experience {
-    font-size: 36px;
+    font-size: 18px;
     flex: 1;
-    padding: 15px 180px 15px 15px;
-    margin: 100px;
-    line-height: 150%;
+    padding: 10px;
+    margin: 0px;
+    line-height: 200%;
+    padding-left: 80px;
   }
 
   #my_experience_list {
-    list-style-type: circle;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    line-height: 50px;
+    padding: 0;
+    padding-right: 30px;
+
   }
 
   /*---------------------------------------------------------------------*/
