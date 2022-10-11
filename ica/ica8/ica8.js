@@ -18,3 +18,4 @@ button.addEventListener('click', function onClick() {
     const result = document.querySelector('.result');
     result.textContent = `Go to ${event.target.value}`;
   });
+
