@@ -6,10 +6,15 @@ function giveAlert(){
 }
 
 var button = document.querySelector("button");
-var box = document.getElementsByClassName("box");
 
 button.addEventListener('click', function onClick() {
     button.style.backgroundColor = 'salmon';
   });
 
 
+  const selectElement = document.querySelector('.pages');
+
+  selectElement.addEventListener('change', (event) => {
+    const result = document.querySelector('.result');
+    result.textContent = `Go to ${event.target.value}`;
+  });
