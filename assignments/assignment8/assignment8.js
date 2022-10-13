@@ -13,9 +13,9 @@ function randomValueFromArray(array){
 
 let storyText = "It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.";
 
-const insertX = ["Willy the Goblin", "Big Daddy", "Father Christmas"];
-const insertY = ["the soup kitchen", "Disneyland", "the White House"];
-const insertZ = ["spontaneously combusted", "melted into a puddle on the sidewalk", "turned into a slug and crawled away"];
+const insertX = ["Willy Wonka", "Your mom", "Mommy"];
+const insertY = ["Hell's kitchen", "Neverland", "the mental hospital"];
+const insertZ = ["never stops crying", "blowing up the bathroom", "slaying"];
 
 // 3. EVENT LISTENER AND PARTIAL FUNCTION DEFINITION
 
