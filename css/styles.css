@@ -1,235 +1,26 @@
 /* mobile media query */
 @media screen and (max-width: 400px) {
-    /* general */
-  body {
-    background-color: #F4F7F5;
-    color: #352F33;
-    margin: 0;
-    /* font: 1.2em / 1.2 Arial, Helvetica, sans-serif; */
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-
-  nav {
-    padding: 2em;
-  }
-
-  nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-shrink: 3;
-    justify-content: space-evenly;
-    font-size: 18px;
-  }
-
-  nav a {
-    color: #333333;
-    text-decoration: none;
-    padding: .5em 1em;
-  }
-
-  nav a:hover {
-    color: #4A6D51;
-    font-weight: bold;
-    font-style: oblique;
-  }
-
-  hr {
-    border: 1px solid;
-    width: 400px;
-    top: 20px;
-  }
-
-  br {
-    display: none;
-  }
-  /*---------------------------------------------------------------------*/
-  /* about page*/
-  .about {
-    background-color: #C1D5BC;
-    background-image: url(/img/green_aura.jpeg);
-    background-repeat:no-repeat;
-    background-position: 200px 500px;
-    background-position-x: center;
-    background-position-y: 180px;
-    background-size: 70%;
-  }
-  #hey {
-    font-size: 24px;
-    position: relative;
-    padding-top: 30px;
-    padding-inline-start: 250px;
-  }
-  #major {
-    font-size: 20px;
-    position: relative;
-    padding-inline-start: 150px;
-    font-weight: lighter;
-    line-height: 150%;
-  }
-
-  #born {
-    font-size: 20px;
-    position: relative;
-    padding-inline-start: 30px;
-    font-weight: lighter;
-    padding-right: 150px;
-    top: 190px;
-    line-height: 150%;
-  }
-
-  /*---------------------------------------------------------------------*/
-  /*playground page*/
-
-
-  #welcome_playground_box {
-    padding: 10px 60px;
-  }
-
-  #welcome_playground {
-    color: #352F33;
-    font-size: 34px;
-    line-height: 150%;
-    text-align: center;
-  }
-
-  #resume {
-    border: #352F33 4px solid;
-    border-radius: 15px;
-    /* box-shadow: -30px 30px 5px #4A6D51; */
-    width: 150px;
-    height: 200px;
-    margin-left: 120px;
-  }
-
-  #my_experience {
-    font-size: 18px;
-    flex: 1;
-    padding: 10px;
-    margin: 0px;
-    line-height: 200%;
-    padding-left: 80px;
-  }
-
-  #my_experience_list {
-    list-style: none;
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    line-height: 50px;
-    padding: 0;
-    padding-right: 30px;
-
-  }
-
-  /*---------------------------------------------------------------------*/
-  /*index page*/
-  .box {
-    padding: 20px;
-    padding-left: 160px;
-    height: 58vh;;
-    width: 30vh;
-    background: #C1D5BC;
-    width: 300px;
-    height: 400px;
-    top: 50%;
-    left: 50%;
-    margin-left: -50px;
-    margin-top: -15px;
-
-  }
-  .smaller_box {
-    padding: 20px;
-    height: 40vh;
-    width: 17vh;
-    background: #6A8662;
-    width: 300px;
-    height: 400px;
-    top: 50%;
-    left: 50%;
-    margin-left: -150px;
-    margin-top: -100px;
-  }
-
-  .welcome_home h1{
-
-    left:100px;
-    font-size: 36px;
-    text-align: center;
-    padding: 25px;
-  }
-
-  /*---------------------------------------------------------------------*/
-  /*contact page*/
-  #email_box {
-    text-decoration: none;
-    font-size: 16px;
-    background-color: #F4F7F5;
-    padding: 20px;
-    border-radius: 30px;
-    text-align: center;
-    border:#4A6D51 3px solid;
-    width: 50%;
-    margin-top: 45px ;
-    margin-left: 20px;
-
-  }
-
-  .container {
-    background-color: #C1D5BC;
-    padding: 50px;
-    padding-top: 10px;
-    margin: 50px 0px 80px 50px;
-    width: 200px;
-    height: 450px;
-  }
-
-  .container h1  {
-    font-size: 36px;
-    text-align: center;
-  }
-
-  .container h3 {
-    font-size: 20px;
-    font-weight: normal;
-    color: #4A6D51;
-    line-height: 300%;
-    text-align: center;
-    font-size: medium;
-  }
-
-  #email_link {
-    text-decoration: none;
-    color: #4A6D51;
-  }
-}
-/*---------------------------------------------------------------------*/
-
-
-/* web media query */
-@media screen and (min-width: 401px){
-/*---------------------------------------------------------------------*/
-/* general */
+  /* general */
 body {
-    background-color: #F4F7F5;
-    color: #352F33;
-    margin: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #F4F7F5;
+  color: #352F33;
+  margin: 0;
+  /* font: 1.2em / 1.2 Arial, Helvetica, sans-serif; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 nav {
   padding: 2em;
-  position: sticky;
-  top:0
 }
 
 nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    font-size: 36px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-shrink: 3;
+  justify-content: space-evenly;
+  font-size: 18px;
 }
 
 nav a {
@@ -245,22 +36,14 @@ nav a:hover {
 }
 
 hr {
-border: 2px solid;
-width: 1000px;
-float: right;
-top: 20px;
+  border: 1px solid;
+  width: 400px;
+  top: 20px;
 }
 
-/* assignment 8 css  */
-.story {
-  background: #c1d5bc;
-  color: #352F33;
-  padding: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  visibility: hidden;
+br {
+  display: none;
 }
-/*  */
-
 /*---------------------------------------------------------------------*/
 /* about page*/
 .about {
@@ -273,124 +56,348 @@ top: 20px;
   background-size: 70%;
 }
 #hey {
-  font-size: 64px;
+  font-size: 24px;
   position: relative;
-  padding-inline-start: 1100px;
+  padding-top: 30px;
+  padding-inline-start: 250px;
 }
 #major {
-  font-size: 64px;
+  font-size: 20px;
   position: relative;
-  padding-inline-start: 550px;
+  padding-inline-start: 150px;
   font-weight: lighter;
   line-height: 150%;
 }
 
 #born {
-  font-size: 64px;
+  font-size: 20px;
   position: relative;
-  padding-inline-start: 100px;
+  padding-inline-start: 30px;
   font-weight: lighter;
-  padding-right: 500px;
-  top: 950px;
+  padding-right: 150px;
+  top: 190px;
   line-height: 150%;
 }
 
 /*---------------------------------------------------------------------*/
 /*playground page*/
-.contain {
-    background-color: #C1D5BC;
-    /* padding: 10px; */
-    /* margin: 10px; */
-    display: flex;
-  }
+
 
 #welcome_playground_box {
-  padding: 10px 40px;
+  padding: 10px 60px;
 }
 
 #welcome_playground {
   color: #352F33;
-  font-size: 56px;
+  font-size: 34px;
   line-height: 150%;
+  text-align: center;
 }
 
 #resume {
   border: #352F33 4px solid;
-  border-radius: 30px;
-  box-shadow: -30px 30px 5px #4A6D51;
+  border-radius: 15px;
+  /* box-shadow: -30px 30px 5px #4A6D51; */
+  width: 150px;
+  height: 200px;
+  margin-left: 120px;
 }
 
 #my_experience {
-  font-size: 36px;
+  font-size: 18px;
   flex: 1;
-  padding: 15px 200px 15px 10px;
-  margin: 100px;
-  line-height: 150%;
+  padding: 10px;
+  margin: 0px;
+  line-height: 200%;
+  padding-left: 80px;
 }
 
 #my_experience_list {
-  list-style-type: circle;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  line-height: 50px;
+  padding: 0;
+  padding-right: 30px;
+
 }
 
 /*---------------------------------------------------------------------*/
 /*index page*/
 .box {
-  padding: 200px 0px 0px 200px;
-  height: 64vh;
-  width: 90vh;
-  position: bottom;
-  float: right;
+  padding: 20px;
+  padding-left: 160px;
+  height: 58vh;;
+  width: 30vh;
   background: #C1D5BC;
+  width: 300px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -15px;
 
 }
 .smaller_box {
-    padding: 360px 0px 0px 200px;
-    height: 20vh;
-    width: 20vh;
-    position: bottom;
-    float: right;
-    background: #6A8662;
+  padding: 20px;
+  height: 40vh;
+  width: 17vh;
+  background: #6A8662;
+  width: 300px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  margin-left: -150px;
+  margin-top: -100px;
 }
 
 .welcome_home h1{
-  position: absolute;
-  top:250px;
-  left:350px;
-  font-size: 96px;
+
+  left:100px;
+  font-size: 36px;
+  text-align: center;
+  padding: 25px;
 }
 
 /*---------------------------------------------------------------------*/
 /*contact page*/
 #email_box {
   text-decoration: none;
-  /* color: #6A8662; */
-  font-size: 42px;
+  font-size: 16px;
   background-color: #F4F7F5;
-  padding: 40px;
-  border-radius: 45px;
+  padding: 20px;
+  border-radius: 30px;
   text-align: center;
   border:#4A6D51 3px solid;
-  width: 20%;
+  width: 50%;
+  margin-top: 45px ;
+  margin-left: 20px;
+
 }
 
 .container {
   background-color: #C1D5BC;
-  padding: 80px;
-  margin: 85px 200px 0px 0px;
-
+  padding: 50px;
+  padding-top: 10px;
+  margin: 50px 0px 80px 50px;
+  width: 200px;
+  height: 450px;
 }
 
 .container h1  {
-  font-size: 64px;
+  font-size: 36px;
+  text-align: center;
 }
 
 .container h3 {
-  font-size: 36px;
+  font-size: 20px;
   font-weight: normal;
+  color: #4A6D51;
+  line-height: 300%;
+  text-align: center;
+  font-size: medium;
 }
 
 #email_link {
   text-decoration: none;
   color: #4A6D51;
+}
+}
+/*---------------------------------------------------------------------*/
+
+
+/* web media query */
+@media screen and (min-width: 401px){
+/*---------------------------------------------------------------------*/
+/* general */
+body {
+  background-color: #F4F7F5;
+  color: #352F33;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+padding: 2em;
+position: sticky;
+top:0
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 36px;
+}
+
+nav a {
+color: #333333;
+text-decoration: none;
+padding: .5em 1em;
+}
+
+nav a:hover {
+color: #4A6D51;
+font-weight: bold;
+font-style: oblique;
+}
+
+hr {
+border: 2px solid;
+width: 1000px;
+float: right;
+top: 20px;
+}
+
+/* assignment 8 css  */
+.story {
+background: #c1d5bc;
+color: #352F33;
+padding: 20px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+visibility: hidden;
+}
+/*  */
+
+/*---------------------------------------------------------------------*/
+/* about page*/
+.about {
+background-color: #C1D5BC;
+background-image: url(/img/green_aura.jpeg);
+background-repeat:no-repeat;
+background-position: 200px 500px;
+background-position-x: center;
+background-position-y: 180px;
+background-size: 70%;
+}
+#hey {
+font-size: 64px;
+position: relative;
+padding-inline-start: 1100px;
+}
+#major {
+font-size: 64px;
+position: relative;
+padding-inline-start: 550px;
+font-weight: lighter;
+line-height: 150%;
+}
+
+#born {
+font-size: 64px;
+position: relative;
+padding-inline-start: 100px;
+font-weight: lighter;
+padding-right: 500px;
+top: 950px;
+line-height: 150%;
+}
+
+/*---------------------------------------------------------------------*/
+/*playground page*/
+.contain {
+  background-color: #C1D5BC;
+  display: flex;
+}
+
+#welcome_playground_box {
+padding: 10px 40px;
+}
+
+#welcome_playground {
+color: #352F33;
+font-size: 56px;
+line-height: 150%;
+}
+
+#resume {
+border: #352F33 4px solid;
+border-radius: 30px;
+box-shadow: -30px 30px 5px #4A6D51;
+}
+
+#my_experience {
+font-size: 28px;
+padding: 0px 200px 15px 10px;
+margin: 0px 100px 0px 100px;
+line-height: 150%;
+}
+
+#my_experience_list {
+list-style-type: circle;
+}
+#my_gallery {
+font-size: 28px;
+flex: 1;
+padding: 0px;
+margin: 100px;
+margin-top: 0px;
+line-height: 150%;
+}
+#my_gallery_preview {
+width: 70%;
+}
+/*---------------------------------------------------------------------*/
+/*index page*/
+.box {
+padding: 200px 0px 0px 200px;
+height: 64vh;
+width: 90vh;
+position: bottom;
+float: right;
+background: #C1D5BC;
+
+}
+.smaller_box {
+  padding: 360px 0px 0px 200px;
+  height: 20vh;
+  width: 20vh;
+  position: bottom;
+  float: right;
+  background: #6A8662;
+}
+
+.welcome_home h1{
+position: absolute;
+top:250px;
+left:350px;
+font-size: 96px;
+}
+
+/*---------------------------------------------------------------------*/
+/*contact page*/
+#email_box {
+text-decoration: none;
+/* color: #6A8662; */
+font-size: 42px;
+background-color: #F4F7F5;
+padding: 40px;
+border-radius: 45px;
+text-align: center;
+border:#4A6D51 3px solid;
+width: 20%;
+}
+
+.container {
+background-color: #C1D5BC;
+padding: 80px;
+margin: 85px 200px 0px 0px;
+
+}
+
+.container h1  {
+font-size: 64px;
+}
+
+.container h3 {
+font-size: 36px;
+font-weight: normal;
+}
+
+#email_link {
+text-decoration: none;
+color: #4A6D51;
 }
 }
