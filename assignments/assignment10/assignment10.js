@@ -1,13 +1,3 @@
-// Given the JSON for the company, calculate the total salary for all company employees.
-
-// let totalSalary = employee.salary[];
-
-// let humanResurce = JSON.parse("assignment10.json");
-
-// for (let i = 0; i < company.length; i++){}
-
-// const humanR = fetch('assignment10.json');
-
 const json = {
 
             "companyName": "Tech Stars",
