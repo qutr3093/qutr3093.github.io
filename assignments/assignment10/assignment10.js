@@ -24,7 +24,6 @@ var resources = {
         }
     ]
 }
-
 console.log (resources.employees)
 
 // Q2
@@ -55,7 +54,6 @@ var company = {
         },
     ]
 }
-
 console.log(company)
 
 // Q3
@@ -89,7 +87,6 @@ for (let j = 0; j < company.employees.length; j++) {
         company.employees[j].raise = false
     }  
 }
-
 console.log(company.employees)
 
 // Q6
@@ -102,5 +99,4 @@ for (let k = 0; k < company.employees.length; k++) {
         company.employees[k].wfh = false
     }
 }
-
 console.log(company.employees)
