@@ -1,10 +1,7 @@
-// Dog names random
+
 window.addEventListener('load', getQuote);
 
 const quoteButton = document.querySelector(".new-quote");
-
-const endpoint = "https://official-joke-api.appspot.com/random_joke";
-// const endpoint = "https://www.boredapi.com/api/activity";
 
 quoteButton.addEventListener("click", getQuote);
 
@@ -21,7 +18,7 @@ async function getQuote(){
 function displayQuote(x) {
     document.getElementById("js-quote-text").textContent = x;
 }
-// Dog pics random
+
 window.addEventListener('load', getDogs);
 
 const source = "https://dog.ceo/api/breeds/image/random";
@@ -43,4 +40,11 @@ function displayDogs(x) {
     document.getElementById("js-dog").src = x;
 }
 
+function changeBackground() {
+    const red = Math.floor(Math.random() * 256);
+    const green = Math.floor(Math.random() * 256);
+    const blue = Math.floor(Math.random() * 256);
 
+// using inline variable in html
+      document.body.style.background = "rgb(" + red + ", " + green + ", " + blue + ")";
+}
