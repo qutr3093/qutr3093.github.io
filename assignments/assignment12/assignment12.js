@@ -59,10 +59,10 @@ const submitButton = document.querySelector('.submit_button').addEventListener('
 //     alert(phone_content.value);
 // }
 
-var slider = document.getElementById('myRange');
-var sliderOutput = document.querySelector('.slider_output');
-var sliderSubmit = document.querySelector('.slider_submit_button').addEventListener('click',update);
+var slider = document.getElementById("myRange");
+var sliderSubmit = document.querySelector(".slider_submit_button").addEventListener('click', update);
+var sliderOutput = document.querySelector(".slider_output");
 
-sliderOutput.oninput = function(){
+function update() {
     sliderOutput.textContent = slider.value;
-}
+  }
