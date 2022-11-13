@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>12 - Bad Phone Number</title>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <script defer src="assignment12.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div>
-        <h1>Please enter your phone number:</h1>
-        <p class="output">0000000000</p>
+      <h1>Please enter your phone number:</h1>
+      <h2 class="phonenumber">XXXXXXXXXX</h2>
+      <p class="output">0000000000</p>
+      <p>Get a randomized number:</p>
     </div>
     <form>
-        <input class="random-button" type="button" name="random-button" value="Random">
-        <input class="set-button" type="button" name="set-button" value="Set">
+      <input
+        class="random-button"
+        type="button"
+        name="random-button"
+        value="Random" />
+      <input
+        class="reset-button"
+        type="button"
+        name="reset-button"
+        value="Reset" />
     </form>
     <div>
-        <h3>Does the first digit match your phone number? (Y/N)</h3>
-</body>
+      <p class="counter">Does the first digit match your phone number?</p>
+    </div>
+    <form>
+      <input class="yes-button" type="button" name="yes-button" value="Yes" />
+      <input class="no-button" type="button" name="no-button" value="No" />
+    </form>
+  </body>
 </html>
