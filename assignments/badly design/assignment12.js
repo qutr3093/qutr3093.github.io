@@ -1,5 +1,4 @@
 const output = document.querySelector(".output"); 
-
 const randomButton = document.querySelector(".random-button").addEventListener("click", random);
 
 function random() {
@@ -15,7 +14,7 @@ function randomNumber(min, max) {
 // convert string to integer (xxx -> #)
 let outputInt = parseInt(output.textContent);
 
-// yes and no buttons
+// yes and no button
 const yesButton = document.querySelector(".yes-button").addEventListener("click", set);
 const noButton = document.querySelector(".no-button").addEventListener("click", message);
 // display phone num
