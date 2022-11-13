@@ -15,8 +15,9 @@ function randomNumber(min, max) {
 // convert string to integer (xxx -> #)
 let outputInt = parseInt(output.textContent);
 
-// yes button
+// yes and no buttons
 const yesButton = document.querySelector(".yes-button").addEventListener("click", set);
+const noButton = document.querySelector(".no-button").addEventListener("click", message);
 // display phone num
 const phoneNumber = document.querySelector(".phonenumber");
 // questions for each individual number of the phone number
@@ -94,8 +95,6 @@ function baseNumber() {
   count = 0
   document.querySelector(".yes-button").disabled = false;
 }
-
-const noButton = document.querySelector(".no-button").addEventListener("click", message);
 
 function message() {
   alert("Try getting a different random number!!!");
