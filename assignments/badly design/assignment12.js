@@ -38,38 +38,38 @@ function set() {
   switch (count) {
     case 0:
       counter.textContent = "Does the second digit match your phone number?";
-      phoneNumber.textContent = str + "-";
+      phoneNumber.textContent = str + "XXXXXXXXX";
       break;
     case 1:
       counter.textContent = "Does the third digit match your phone number?";
-      phoneNumber.textContent = str + "-";
+      phoneNumber.textContent = str + "XXXXXXXX";
       break;
     case 2:
       counter.textContent = "Does the fourth digit match your phone number?";
-      phoneNumber.textContent = str + "-";
+      phoneNumber.textContent = str + "XXXXXXX";
       break;
     case 3:
       counter.textContent = "Does the fifth digit match your phone number?";
-      phoneNumber.textContent = str + "-";
+      phoneNumber.textContent = str + "XXXXXX";
       break;
     case 4:
       counter.textContent = "Does the sixth digit match your phone number?";
-      phoneNumber.textContent = str + "-";
+      phoneNumber.textContent = str + "XXXXX";
       break;
     case 5:
       counter.textContent = "Does the seventh digit match your phone number?";
-      phoneNumber.textContent = str + "-";
+      phoneNumber.textContent = str + "XXXX";
       break;
     case 6:
       counter.textContent = "Does the eighth digit match your phone number?";
-      phoneNumber.textContent = str + "-";
+      phoneNumber.textContent = str + "XXX";
       break;
     case 7:
       counter.textContent = "Does the ninth digit match your phone number?";
-      phoneNumber.textContent = str + "-";
+      phoneNumber.textContent = str + "XX";
       break;
     case 8:
-      phoneNumber.textContent = str + "-";
+      phoneNumber.textContent = str + "X";
       counter.textContent = "Does the tenth digit match your phone number?";
       break;
     case 9:
@@ -89,7 +89,7 @@ const resetButton = document.querySelector(".reset-button").addEventListener("cl
 
 function baseNumber() {
   output.textContent = "0000000000";
-  phoneNumber.textContent = "";
+  phoneNumber.textContent = "XXXXXXXXXX";
   str = ""
   count = 0
   document.querySelector(".yes-button").disabled = false;
