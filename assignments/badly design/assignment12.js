@@ -89,7 +89,7 @@ const resetButton = document.querySelector(".reset-button").addEventListener("cl
 
 function baseNumber() {
   output.textContent = "0000000000";
-  phoneNumber.textContent = "-";
+  phoneNumber.textContent = "";
   str = ""
   count = 0
   document.querySelector(".yes-button").disabled = false;
