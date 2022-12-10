@@ -335,15 +335,10 @@
     }
     #name {
       position: relative;
-      /* padding: 50px; */
-      /* font-weight: 556px; */
       font-size: 80px;
-      display: none;
       justify-content: center;
-      margin: 60px;
       background-color: #C1D5BC;
       text-align: center;
-      visibility: hidden;
   }
   
   .more-intro {
@@ -357,7 +352,6 @@
   }
   
   p {
-    padding: 20px;
     text-align: center;
     font-size: 16px;
   }
