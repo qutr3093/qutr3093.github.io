@@ -1,10 +1,48 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>typing words game</title>
-    <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="stylesheet" href="/css/main.css" />
+    <title>Guess the word</title>
+    <style>
+      body {
+        background-color: #c1d4bc;
+        font-family: Arial, sans-serif;
+      }
+      nav {
+        padding: 2em;
+        top: 0;
+        background-color: #f4f7f5;
+      }
+
+      nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        font-size: 34px;
+      }
+
+      nav a {
+        color: #333333;
+        text-decoration: none;
+        padding: 0.5em 1em;
+      }
+
+      nav a:hover {
+        color: #4a6d51;
+        font-weight: bold;
+      }
+      #play {
+        text-align: center;
+        font-size: 32px;
+        background-color: #f4f7f5;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .gif {
+        padding: 100px;
+        margin-left: 350px;
+      }
+    </style>
   </head>
   <body>
     <nav>
@@ -18,23 +56,77 @@
       </ul>
     </nav>
 
-    <div class="wrapper">
-      <p>How fast can you type in 30 seconds !?</p>
-      <button>START</button>
-      <div class="outerWrap">
-        <div class="scoreWrap">
-          <p>Score</p>
-          <span class="score">0</span>
-        </div>
-        <div class="timeWrap">
-          <p>Time</p>
-          <span class="time">30</span>
-        </div>
-      </div>
-      <div class="wordsWrap">
-        <p class="words"></p>
-      </div>
+    <div id="play">
+      <p id="words">Guess the word by start typing on your keyboard:</p>
+      <p id="guess">Guesses: 25</p>
     </div>
-    <script src="/js/js.js"></script>
+    <script>
+      var words = [
+        "hello",
+        "community",
+        "slay",
+        "heart",
+        "hardworking",
+        "person",
+        "array",
+        "building",
+        "work",
+        "food",
+        "home",
+        "you",
+        "okay",
+        "sunset",
+        "coffee",
+        "irks",
+        "know",
+        "lack",
+        "sleep",
+      ];
+
+      var word = words[Math.floor(Math.random() * words.length)];
+      var wordEl = document.getElementById("words");
+      var guessesEl = document.getElementById("guess");
+      var correct = [];
+      var remain = 25;
+
+      wordEl.textContent =
+        "Guess the word: " +
+        word
+          .split("")
+          .map((letter) => (letter = "-"))
+          .join(" ");
+
+      document.onkeyup = function (event) {
+        var userGuess = event.key.toLowerCase();
+
+        if (word.includes(userGuess)) {
+          correct.push(userGuess);
+        } else {
+          remain--;
+        }
+
+        wordEl.textContent =
+          "You should try and guess the word better: " +
+          word
+            .split("")
+            .map((letter) => (correct.includes(letter) ? letter : "-"))
+            .join(" ");
+        guessesEl.textContent = "Remaining guesses: " + remain;
+
+        if (!word.split("").some((letter) => !correct.includes(letter))) {
+          alert("WINNER! WINNER WINNER CHICKEN DINNER !");
+        } else if (remain <= 0) {
+          alert("LOSER! SILLY SILLY GOOSE. BE BETTER !");
+        }
+      };
+    </script>
+    <iframe
+      class="gif"
+      src="https://giphy.com/embed/6HNonYwCD4yrHFk7ya"
+      width="480"
+      height="270"
+      frameborder="0"
+      class="giphy-embed"
+      allowfullscreen></iframe>
   </body>
 </html>
