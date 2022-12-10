@@ -41,7 +41,7 @@
   #name {
       position: relative;
       padding: 70px;
-      font-weight: 556px;
+      /* font-weight: 556px; */
       font-size: 94px;
       display: flex;
       justify-content: center;
@@ -160,7 +160,7 @@
   .explore {
       position: relative;
       padding: 50px;
-      font-weight: 556px;
+      /* font-weight: 556px; */
       font-size: 96px;
       display: flex;
       justify-content: center;
@@ -336,7 +336,7 @@
     #name {
       position: relative;
       /* padding: 50px; */
-      font-weight: 556px;
+      /* font-weight: 556px; */
       font-size: 80px;
       display: none;
       justify-content: center;
