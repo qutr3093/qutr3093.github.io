@@ -1,5 +1,5 @@
 /* desktop */
-@media screen and (min-width: 451px) {
+@media screen and (min-width: 401px) {
   html {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #F4F7F5;
@@ -33,6 +33,11 @@
       font-weight: bold;
       }
   
+
+
+.gif {
+   margin-left: 450px;
+}
   /* home page */
   .intro {
       background-color: #C1D4BC;
@@ -302,7 +307,7 @@
   }
   
   /* mobile */
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 400px) {
     /* general */
   html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -515,5 +520,12 @@
     height: auto;
     padding: 10px;
   }  
+
+  #play {
+    text-align: center;
+    font-size: 32px;
+    background-color: #f4f7f5;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
   
   }
