@@ -1,5 +1,5 @@
 /* desktop */
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 451px) {
   html {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #F4F7F5;
@@ -302,7 +302,7 @@
   }
   
   /* mobile */
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 450px) {
     /* general */
   html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
