@@ -1,4 +1,4 @@
- 	var button = document.querySelector("button");
+ 	let button = document.querySelector("button");
  	var words = document.querySelector(".words");
    var temp = document.querySelector('.time');
  	var timerBox = document.querySelector(".time");
@@ -9,7 +9,7 @@
  	var seconds = 30;
   var spark = new Audio("http://k003.kiwi6.com/hotlink/qdpr7bioht/spark.mp3");
 
- 	function countdown() {
+ 	function countdowns() {
  		points = 0;
  		var timer = setInterval(function(){
  			button.disabled = true;
@@ -270,7 +270,7 @@
   'YOUR','YOURSELF','YOUTH','ZERO','ZOO'];
 
   	button.addEventListener("click", function(e){
-  		countdown();
+  		countdowns();
   		random();
   		button.disabled = true;	
   	});
