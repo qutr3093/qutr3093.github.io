@@ -330,16 +330,20 @@
   
     /* home page */
   
+    .contact {
+      background-color: #C1D4BC;
+    }
     #name {
       position: relative;
       /* padding: 50px; */
       font-weight: 556px;
       font-size: 80px;
-      display: flex;
+      display: none;
       justify-content: center;
       margin: 60px;
       background-color: #C1D5BC;
       text-align: center;
+      visibility: hidden;
   }
   
   .more-intro {
@@ -348,6 +352,8 @@
   
   #bunny {
   padding-left: 80px;
+  visibility: hidden;
+
   }
   
   p {
